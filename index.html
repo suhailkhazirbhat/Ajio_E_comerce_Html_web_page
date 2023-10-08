@@ -161,7 +161,7 @@
 
 
     <main style="position: fixed;top: 164px; width:100%">
-        
+
         <div class="container-fluid" style="box-shadow: 0px 0px 10px #aaaaaa; padding: 5px;">
             <nav aria-label="breadcrumb"
                 style="background-color: white !important; color:rgb(184, 181, 181) !important;">
@@ -331,7 +331,7 @@
         localStorage.setItem("data", JSON.stringify(data))
 
         let kk = document.getElementById('addCard')
-      
+
         kk.innerHTML = `<input value=${data.length} style="border-radius: 50%;
                                 width: 50px;
                                 position: absolute;
@@ -359,20 +359,20 @@
 
     }
 
-  function popUp() {
-    let con=document.getElementById('middle')
-    let popup=document.createElement('div')
+    function popUp() {
+        let con = document.getElementById('middle')
+        let popup = document.createElement('div')
 
-       popup.innerHTML=`<h1>"sdfgh"</h1>`
-       popup.appendChild(con)
-  }
+        popup.innerHTML = `<h1>"sdfgh"</h1>`
+        popup.appendChild(con)
+    }
 
-  var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
 
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
+    myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+    })
 
 </script>
 
